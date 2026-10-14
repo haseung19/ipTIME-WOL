@@ -1,0 +1,23 @@
+# Local build outputs (prebuilt public binary is in bin/)
+/dist/
+*.test
+*.log
+
+# Secrets and personal router settings
+settings.json
+**/settings.json
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+
+# Editors / OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+Desktop.ini
